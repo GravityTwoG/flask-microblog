@@ -1,0 +1,110 @@
+2019-07-16 18:45:56,660 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:50]
+2019-07-16 18:48:30,485 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:50]
+2019-07-16 18:49:34,694 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:50]
+2019-07-16 18:50:00,493 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:50]
+2019-07-16 18:51:27,970 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:53]
+2019-07-16 18:52:40,539 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:52]
+2019-07-16 18:53:20,537 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:55]
+2019-07-16 18:55:09,294 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:55]
+2019-07-16 18:56:37,349 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:55]
+2019-07-16 19:06:32,990 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:57]
+2019-07-16 19:20:13,953 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:64]
+2019-07-26 17:45:46,690 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:64]
+2019-07-28 17:48:00,553 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 17:48:09,099 ERROR: Exception on /login [GET] [in C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\PyProjects\mywebserver\app\routes.py", line 55, in login
+    return render_template('login.html', title='Sign In', form=form)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "D:\PyProjects\mywebserver\app\templates\login.html", line 2, in top-level template code
+    {% import 'bootstrap/wtf.html' as wtf %}
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\Marsel\AppData\Roaming\Python\Python37\site-packages\flask\templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: bootstrap/wtf.html
+2019-07-28 17:51:27,136 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 17:52:15,015 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 17:54:54,054 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 17:59:06,784 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 18:00:50,229 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 18:03:37,527 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 18:03:38,603 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:62]
+2019-07-28 18:07:01,209 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:07:02,356 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:08:59,064 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:09:00,085 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:15:31,650 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:15:32,756 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:26:08,116 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:26:09,163 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:32:07,842 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:32:08,882 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:54:55,443 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 18:54:56,533 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:07:33,679 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:07:34,664 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:08:37,055 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:08:38,114 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:28:08,903 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:28:09,984 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:32:17,289 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:32:18,390 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:32:39,517 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:32:40,612 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:33:45,293 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 19:33:46,282 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:09:55,373 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:09:56,428 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:19:05,760 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:19:06,790 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:21:50,730 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:21:51,757 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:25:56,886 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:25:57,885 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:26:59,703 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:27:00,704 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:44:42,979 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:44:44,072 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 20:57:57,611 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:59]
+2019-07-28 21:00:51,897 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 12:45:12,770 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 12:45:14,294 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:05:40,275 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:05:47,325 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:06:38,430 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:06:39,592 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:09:51,477 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:09:52,554 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:15:26,634 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-29 19:15:27,656 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-30 18:43:50,991 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-30 18:43:52,550 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-31 15:09:52,871 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-31 15:09:56,593 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-31 18:27:53,934 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-31 18:28:11,369 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]
+2019-07-31 18:28:23,886 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:58]

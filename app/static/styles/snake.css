@@ -1,0 +1,71 @@
+.snake {
+
+}
+.field {
+	width: 500px;
+	height: 500px;
+	margin: 20px auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background-color: #ccc;
+}
+
+.excel {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.snakeBody {
+	background: #add;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border: 2px solid #acd;
+	border-radius: 3px;
+
+}
+
+.snakeHead {
+	background: #acd;
+	border: 3px solid #add;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+
+.fruit {
+	background-color: #CCA134;
+	border: 4px solid #ff99bb;
+	border-radius: 3px;
+	animation: fruitAnimation 6s 1 linear;
+
+}
+
+@keyframes fruitAnimation {
+	0% {background-color: #ee1177}
+	50% {background-color: #ffaaaa;}
+	100% {background-color: #CCA134;}
+}
+
+.dead {
+	background: #ffaaaa;
+}
+
+.score {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	width: 200px;
+	color: #5ACC54;
+	border: none;
+	border-radius: 3px;
+
+}

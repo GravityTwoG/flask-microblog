@@ -1,0 +1,116 @@
+2019-07-15 16:25:52,502 ERROR: Exception on /index [GET] [in C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Марсель\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\PyProjects\mywebserver\app\routes.py", line 24, in index
+    if form.validate_on_submit():
+TypeError: validate_on_submit() missing 1 required positional argument: 'self'
+2019-07-15 16:26:54,360 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:47]
+2019-07-15 16:26:56,125 ERROR: Exception on /index [GET] [in C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Марсель\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\PyProjects\mywebserver\app\routes.py", line 24, in index
+    if form.validate_on_submit():
+TypeError: validate_on_submit() missing 1 required positional argument: 'self'
+2019-07-15 16:26:58,335 ERROR: Exception on /index [GET] [in C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Марсель\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\PyProjects\mywebserver\app\routes.py", line 24, in index
+    if form.validate_on_submit():
+TypeError: validate_on_submit() missing 1 required positional argument: 'self'
+2019-07-15 16:28:45,656 INFO: Microblog startup [in D:\PyProjects\mywebserver\app\__init__.py:47]
+2019-07-15 16:28:48,796 ERROR: Exception on /index [GET] [in C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Марсель\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\PyProjects\mywebserver\app\routes.py", line 24, in index
+    if form.validate_on_submit():
+TypeError: validate_on_submit() missing 1 required positional argument: 'self'
+2019-07-15 16:28:51,005 ERROR: Exception on /index [GET] [in C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Марсель\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\PyProjects\mywebserver\app\routes.py", line 24, in index
+    if form.validate_on_submit():
+TypeError: validate_on_submit() missing 1 required positional argument: 'self'
+2019-07-15 16:28:52,102 ERROR: Exception on /index [GET] [in C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Марсель\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Марсель\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\PyProjects\mywebserver\app\routes.py", line 24, in index
+    if form.validate_on_submit():
+TypeError: validate_on_submit() missing 1 required positional argument: 'self'
